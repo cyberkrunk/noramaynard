@@ -3,7 +3,11 @@
     padding: 0;
 }
 body{
+    max-width: 1200px;
     min-height: 100vh;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 nav{
     background-color: white;
@@ -53,4 +57,24 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
+}
+.menu-button{
+    display: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
 }
