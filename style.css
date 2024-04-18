@@ -8,6 +8,8 @@ body{
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 18px;
 }
 nav{
     background-color: white;
@@ -21,7 +23,7 @@ nav ul{
     align-items: center;
 }
 nav li{
-    height: 50px;
+    height: 100px;
 }
 nav a{
     height: 100%;
@@ -64,6 +66,28 @@ nav li:first-child{
 img{
     width: 100%;
     height: auto;
+}
+h1{
+    font-size: 58px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+h2{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+p{
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+.article-text{
+    max-width: 36em;
+    margin: auto;
+}
+.article-text-small{
+    font-size: 16px;
+    line-height: 1.6;
 }
 @media(max-width: 800px){
     .hideOnMobile{
